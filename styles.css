@@ -1,0 +1,102 @@
+.searchResult {
+    border: 1px solid red;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.prices {
+    text-align: right;
+}
+
+/****************DETAILSVIEW********************/
+
+.border {
+    border: 3px solid red;
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+   
+}
+
+.summary {
+    border: 3px solid black;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.ingredients {
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.instructions {
+    border: 3px solid black;
+    display: inline-block;
+    max-width:250px;
+    margin-left: 20px;
+}
+
+.image {
+    height: 100px;
+    margin-left: 20px;
+}
+
+.priceHeader {
+    line-height: 0px;
+}
+
+.searchResult {
+    border: 1px solid red;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.prices {
+    text-align: right;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+
+/***********SUMMARYVIEW***********/
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.title {
+    font-weight: bolder   
+}
+
+tr:nth-child(n) {background: #CCC}
+tr:nth-child(2n) {background: #FFF}
+
+/************* flexbox *************/
+
+.debug{ border-style: solid; }
+.flexParent{ display: flex; height: 100% }
+.sidebar{width: 400px; min-width: 400px; }
+.mainContent{width: 100%; overflow: scroll; }
+
+@media screen and (max-width: 340px) {
+    .flexParent {
+        display:inline
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+
